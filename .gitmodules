@@ -1,0 +1,3 @@
+[submodule "hw-5-flashloans/hw-5/lib/forge-std"]
+	path = hw-5-flashloans/hw-5/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
