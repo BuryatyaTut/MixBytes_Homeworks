@@ -19,4 +19,4 @@
 ----
 
 Runnig Test Will Looks Like This: 
-![tests][./tests_example.png]
+![./tests_example.png](https://github.com/BuryatyaTut/MixBytes_Homeworks/blob/main/hw-4-high_level_patterns_DAO/tests_example.png)
