@@ -539,8 +539,4 @@ describe("Voting", function () {
             expect((await voting.getActiveProposal(_hash))[3]).to.eq(initBalance);
         });
     });
-
-    describe("Complex Scenarios", async function (){
-        it("");
-    });
 });
