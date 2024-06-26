@@ -46,7 +46,6 @@ async function main(){
     console.log("The allowance for ITMO: %s", await itmoToken.allowance(vitalik, router));
     // Approve the Token B
     // await usdt.connect(vitalik).approve(router, amountBDesired);
-    console.log("kek");
     console.log(await usdt.allowance(vitalik, router));
     
     const pair = await router.connect(vitalik).addLiquidity(await itmoToken.getAddress(), USDTaddress, amountADesired, amountBDesired, amount, amount, vitalik, deadline);
