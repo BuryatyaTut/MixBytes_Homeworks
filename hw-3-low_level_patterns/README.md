@@ -1,18 +1,20 @@
-1. **Run Local Forked Node**
+1. **Create Your .env File**
+    ```
+        API_URL="<YOUR_API_URL_HERE>"
+    ```
+
+2. **Run Local Forked Node**
    
    ```shell
    npx hardhat node
    ```
 
-2. **Run Script**
+3. **Run Script**
 
    ```shell
    npx hardhat run scripts/scenario.ts --network hardhat
    ```
-3. **Create Your .env File**
-    ```
-        API_URL="<YOUR_API_URL_HERE>"
-    ```
+
 
 ## Example Output
 
