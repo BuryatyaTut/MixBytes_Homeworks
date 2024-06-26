@@ -15,3 +15,8 @@
    ```bash
    npx hardhat test test/Voting.ts
    ```
+
+----
+
+Runnig Test Will Looks Like This: 
+![tests][./tests_example.png]
